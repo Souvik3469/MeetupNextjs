@@ -10,7 +10,7 @@ function HomePage(props) {
         <title>React Meetups</title>
         <meta
           name="description"
-          content="Browse a giant list of React Meetups taking place around the world"
+          content="Browse a giant list of Meetups taking place around the world"
         />
       </Head>
       <MeetupList meetups={props.allMeetups} />
